@@ -1,13 +1,20 @@
 
 import Icon from './Icon';
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 // function Login( { onNavigate }) {
 function Login() {
+  const navigate = useNavigate();
+
+  const navprofile = () => {
+    navigate("/profile");
+  };
+
     return (
-        <div>
-            <h1>Signin to your PopX account</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+        <div className="popx-login-page popx-page-container">
+            <h1 className="popx-heading">Signin to your PopX account</h1>
+            <p className="popx-subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
             <div className='popx-input-group'> 
               <label className='popx-input-label'>Email address </label>
               <input type="email" placeholder="Emter email address" className="popx-input" />
@@ -21,7 +28,7 @@ function Login() {
             
             
             
-            <button>Login</button>
+            <button className="popx-button popx-button-disabled" onClick={navprofile}>Login</button>
         </div>
     );
 

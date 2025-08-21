@@ -45,6 +45,7 @@ body {
   font-size: 1.875rem; /* text-3xl */
   font-weight: 700; /* font-bold */
   margin-bottom: 0.5rem; /* mb-2 */
+  /* width: 70%; */
 }
 
 .popx-subtext {
@@ -149,6 +150,7 @@ body {
 
 .popx-login-page .popx-subtext {
   margin-bottom: 2rem;
+  /* width: 80%; */
 }
 
 .popx-login-page .popx-button-disabled {
