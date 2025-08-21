@@ -79,7 +79,7 @@ body {
 
 /* code for input fields  */
 .popx-input {
-  width: 100%;
+  width: 90%;
   padding: 1rem; /* p-4 */
   border: 1px solid #d1d5db; /* border border-gray-300 */
   border-radius: 0.5rem; /* rounded-lg */
@@ -163,9 +163,15 @@ body {
 }
 
 .popx-radio-group {
-  display: flex;
+  /* display: flex; */
   align-items: center;
-  margin-top: 2rem; /* mt-8 */
+  margin-bottom: 2rem; /* mt-8 */
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; /* space-x-4 */
 }
 
 .popx-radio-label {
