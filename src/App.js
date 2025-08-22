@@ -10,7 +10,7 @@ function App () {
     <div className="popx-container">
       <div className='popx-mobile-frame'>
         <Router>
-          <Routes basename="/">
+          <Routes basename="/popx">
             <Route 
               exact
               path = "/"
