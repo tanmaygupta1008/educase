@@ -25,7 +25,7 @@ body {
 
 .popx-mobile-frame {
   background-color: #fff;
-  border-radius: 1.5rem;
+  /* border-radius: 1.5rem; */
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   width: 100%;
   max-width: 24rem; /* Equivalent to md: in Tailwind */
@@ -42,9 +42,12 @@ body {
 }
 
 .popx-heading {
+  margin-top: 0rem;
   font-size: 1.875rem; /* text-3xl */
   font-weight: 700; /* font-bold */
   margin-bottom: 0.5rem; /* mb-2 */
+  /* border-width: 0 0 2px 0 ;
+  border-color: #374151; */
   /* width: 70%; */
 }
 
@@ -58,6 +61,18 @@ body {
   margin-bottom: 1.5rem; /* mb-6 */
 }
 
+
+
+
+
+
+
+
+.popx-profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 
 
@@ -171,9 +186,10 @@ body {
 }
 
 .options {
+  padding-top: 0.5rem;
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem; /* space-x-4 */
+  /* gap: 1rem; space-x-4 */
 }
 
 .popx-radio-label {
@@ -257,4 +273,9 @@ body {
 
 .popx-settings-list li svg {
   margin-right: 0.75rem; /* space-x-3 */
+}
+
+
+.required {
+  color: red;
 }
