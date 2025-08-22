@@ -145,7 +145,11 @@ body {
 .popx-login-page .popx-button-disabled {
   background-color: #d1d5db; /* bg-gray-300 */
   color: #fff;
-  cursor: not-allowed;
+  /* cursor: not-allowed; */
+}
+
+.popx-button-disabled:hover{
+  color: black;
 }
 
 /* --- Create Account Page Specific --- */
